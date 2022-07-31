@@ -16,19 +16,76 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FoursquareCloneAPP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LtM-U6-ZQU">
-                                <rect key="frame" x="20" y="139" width="374" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FoursquareCloneAPP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LtM-U6-ZQU">
+                                <rect key="frame" x="20" y="65" width="374" height="63"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rid-IR-mzj">
+                                <rect key="frame" x="20" y="159" width="374" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="xTS-Wf-0FE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VrC-Za-F22">
+                                <rect key="frame" x="20" y="213" width="374" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="hWm-6A-O7M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PXf-vr-OKf">
+                                <rect key="frame" x="20" y="332" width="103" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="103" id="h5c-Mb-kF1"/>
+                                    <constraint firstAttribute="height" constant="49" id="vqx-nb-hic"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Login"/>
+                                <connections>
+                                    <action selector="loginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JxU-cA-JHu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sB0-zK-Qsj">
+                                <rect key="frame" x="291" y="331" width="103" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="103" id="Eva-sC-GGq"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Sign up"/>
+                                <connections>
+                                    <action selector="signupButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b0n-5e-RU1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="LtM-U6-ZQU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="0X3-Do-K1h"/>
+                            <constraint firstItem="rid-IR-mzj" firstAttribute="top" secondItem="LtM-U6-ZQU" secondAttribute="bottom" constant="31" id="3ks-JK-FXd"/>
+                            <constraint firstItem="VrC-Za-F22" firstAttribute="top" secondItem="rid-IR-mzj" secondAttribute="bottom" constant="20" id="4Vl-7l-OE8"/>
+                            <constraint firstItem="LtM-U6-ZQU" firstAttribute="trailing" secondItem="rid-IR-mzj" secondAttribute="trailing" id="HZh-7K-v9T"/>
+                            <constraint firstItem="VrC-Za-F22" firstAttribute="leading" secondItem="PXf-vr-OKf" secondAttribute="leading" id="N17-14-FEV"/>
+                            <constraint firstItem="PXf-vr-OKf" firstAttribute="top" secondItem="VrC-Za-F22" secondAttribute="bottom" constant="85" id="OeI-pg-Htr"/>
+                            <constraint firstItem="LtM-U6-ZQU" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="R6C-pt-eyZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="PXf-vr-OKf" secondAttribute="bottom" constant="481" id="SRc-fJ-07d"/>
+                            <constraint firstItem="VrC-Za-F22" firstAttribute="trailing" secondItem="sB0-zK-Qsj" secondAttribute="trailing" id="Vlh-yT-f4g"/>
+                            <constraint firstItem="sB0-zK-Qsj" firstAttribute="top" secondItem="VrC-Za-F22" secondAttribute="bottom" constant="84" id="ZPT-qh-cUS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sB0-zK-Qsj" secondAttribute="bottom" constant="482" id="cFp-aC-Pdd"/>
+                            <constraint firstItem="LtM-U6-ZQU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="21" id="os7-Q4-1uz"/>
+                            <constraint firstItem="LtM-U6-ZQU" firstAttribute="leading" secondItem="rid-IR-mzj" secondAttribute="leading" id="r7t-B7-3bn"/>
+                            <constraint firstItem="rid-IR-mzj" firstAttribute="leading" secondItem="VrC-Za-F22" secondAttribute="leading" id="xgL-sA-Hq7"/>
+                            <constraint firstItem="rid-IR-mzj" firstAttribute="trailing" secondItem="VrC-Za-F22" secondAttribute="trailing" id="zxo-pI-NJs"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="label" destination="LtM-U6-ZQU" id="yQc-D4-ige"/>
+                        <outlet property="passwordText" destination="VrC-Za-F22" id="41x-yT-eYQ"/>
+                        <outlet property="usernameText" destination="rid-IR-mzj" id="b2V-JV-8dX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
