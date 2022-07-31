@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A23043F2896987000A12035 /* ParseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1A23043E2896987000A12035 /* ParseSwift */; };
 		1A61762B2893203E00814EE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A61762A2893203E00814EE0 /* AppDelegate.swift */; };
 		1A61762D2893203E00814EE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A61762C2893203E00814EE0 /* SceneDelegate.swift */; };
 		1A61762F2893203E00814EE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A61762E2893203E00814EE0 /* ViewController.swift */; };
 		1A6176322893203E00814EE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6176302893203E00814EE0 /* Main.storyboard */; };
 		1A6176342893204200814EE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6176332893204200814EE0 /* Assets.xcassets */; };
 		1A6176372893204200814EE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6176352893204200814EE0 /* LaunchScreen.storyboard */; };
+		5A93E2BBB7B6062C1BA3985B /* Pods_Foursquare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659C41A8147E747CA520F3A1 /* Pods_Foursquare.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,9 @@
 		1A6176332893204200814EE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A6176362893204200814EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A6176382893204200814EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		659C41A8147E747CA520F3A1 /* Pods_Foursquare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foursquare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C520F41DDA1C455E8EED3522 /* Pods-Foursquare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foursquare.debug.xcconfig"; path = "Target Support Files/Pods-Foursquare/Pods-Foursquare.debug.xcconfig"; sourceTree = "<group>"; };
+		D6FE60524B21777BC5BE84F2 /* Pods-Foursquare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foursquare.release.xcconfig"; path = "Target Support Files/Pods-Foursquare/Pods-Foursquare.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A23043F2896987000A12035 /* ParseSwift in Frameworks */,
+				5A93E2BBB7B6062C1BA3985B /* Pods_Foursquare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				1A6176292893203E00814EE0 /* Foursquare */,
 				1A6176282893203E00814EE0 /* Products */,
+				32F014B714071DA4F60B5F40 /* Pods */,
+				98FBDD78A7562390727A4483 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +76,24 @@
 			path = Foursquare;
 			sourceTree = "<group>";
 		};
+		32F014B714071DA4F60B5F40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C520F41DDA1C455E8EED3522 /* Pods-Foursquare.debug.xcconfig */,
+				D6FE60524B21777BC5BE84F2 /* Pods-Foursquare.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		98FBDD78A7562390727A4483 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				659C41A8147E747CA520F3A1 /* Pods_Foursquare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +101,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A61763B2893204200814EE0 /* Build configuration list for PBXNativeTarget "Foursquare" */;
 			buildPhases = (
+				E690B6924630DE729A2F2734 /* [CP] Check Pods Manifest.lock */,
 				1A6176232893203E00814EE0 /* Sources */,
 				1A6176242893203E00814EE0 /* Frameworks */,
 				1A6176252893203E00814EE0 /* Resources */,
+				EB79F09484DDD96062CD3802 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Foursquare;
+			packageProductDependencies = (
+				1A23043E2896987000A12035 /* ParseSwift */,
+			);
 			productName = Foursquare;
 			productReference = 1A6176272893203E00814EE0 /* Foursquare.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +143,9 @@
 				Base,
 			);
 			mainGroup = 1A61761E2893203E00814EE0;
+			packageReferences = (
+				1A23043D2896986F00A12035 /* XCRemoteSwiftPackageReference "Parse-Swift.git" */,
+			);
 			productRefGroup = 1A6176282893203E00814EE0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,6 +167,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E690B6924630DE729A2F2734 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Foursquare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB79F09484DDD96062CD3802 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foursquare/Pods-Foursquare-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foursquare/Pods-Foursquare-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Foursquare/Pods-Foursquare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1A6176232893203E00814EE0 /* Sources */ = {
@@ -282,6 +359,7 @@
 		};
 		1A61763C2893204200814EE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C520F41DDA1C455E8EED3522 /* Pods-Foursquare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +388,7 @@
 		};
 		1A61763D2893204200814EE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6FE60524B21777BC5BE84F2 /* Pods-Foursquare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -358,6 +437,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1A23043D2896986F00A12035 /* XCRemoteSwiftPackageReference "Parse-Swift.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/parse-community/Parse-Swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1A23043E2896987000A12035 /* ParseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A23043D2896986F00A12035 /* XCRemoteSwiftPackageReference "Parse-Swift.git" */;
+			productName = ParseSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1A61761F2893203E00814EE0 /* Project object */;
 }
