@@ -26,7 +26,7 @@ class PLacesVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         // Do any additional setup after loading the view.
     }
     @objc func addButtonClicked(){
-        //segue
+        self.performSegue(withIdentifier: "toAddPlaceVC", sender: nil)
     }
     
     @objc func logoutButtonClicked(){

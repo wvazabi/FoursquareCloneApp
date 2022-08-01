@@ -16,6 +16,7 @@
 		1A6176342893204200814EE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6176332893204200814EE0 /* Assets.xcassets */; };
 		1A6176372893204200814EE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6176352893204200814EE0 /* LaunchScreen.storyboard */; };
 		1AABE39B289843D800E264AD /* AddPlaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AABE39A289843D800E264AD /* AddPlaceVC.swift */; };
+		1AABE39D289845E000E264AD /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AABE39C289845E000E264AD /* MapVC.swift */; };
 		5A93E2BBB7B6062C1BA3985B /* Pods_Foursquare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659C41A8147E747CA520F3A1 /* Pods_Foursquare.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		1A6176362893204200814EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A6176382893204200814EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AABE39A289843D800E264AD /* AddPlaceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlaceVC.swift; sourceTree = "<group>"; };
+		1AABE39C289845E000E264AD /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		659C41A8147E747CA520F3A1 /* Pods_Foursquare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foursquare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C520F41DDA1C455E8EED3522 /* Pods-Foursquare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foursquare.debug.xcconfig"; path = "Target Support Files/Pods-Foursquare/Pods-Foursquare.debug.xcconfig"; sourceTree = "<group>"; };
 		D6FE60524B21777BC5BE84F2 /* Pods-Foursquare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foursquare.release.xcconfig"; path = "Target Support Files/Pods-Foursquare/Pods-Foursquare.release.xcconfig"; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				1A6176382893204200814EE0 /* Info.plist */,
 				1A3B08122896F4FF00F3ED63 /* PLacesVC.swift */,
 				1AABE39A289843D800E264AD /* AddPlaceVC.swift */,
+				1AABE39C289845E000E264AD /* MapVC.swift */,
 			);
 			path = Foursquare;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A61762F2893203E00814EE0 /* SignUpVC.swift in Sources */,
+				1AABE39D289845E000E264AD /* MapVC.swift in Sources */,
 				1A61762B2893203E00814EE0 /* AppDelegate.swift in Sources */,
 				1A3B08132896F4FF00F3ED63 /* PLacesVC.swift in Sources */,
 				1AABE39B289843D800E264AD /* AddPlaceVC.swift in Sources */,
