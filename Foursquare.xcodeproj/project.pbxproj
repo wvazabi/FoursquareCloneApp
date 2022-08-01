@@ -8,24 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		1A23043F2896987000A12035 /* ParseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1A23043E2896987000A12035 /* ParseSwift */; };
+		1A3B08132896F4FF00F3ED63 /* PLacesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3B08122896F4FF00F3ED63 /* PLacesVC.swift */; };
 		1A61762B2893203E00814EE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A61762A2893203E00814EE0 /* AppDelegate.swift */; };
 		1A61762D2893203E00814EE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A61762C2893203E00814EE0 /* SceneDelegate.swift */; };
-		1A61762F2893203E00814EE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A61762E2893203E00814EE0 /* ViewController.swift */; };
+		1A61762F2893203E00814EE0 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A61762E2893203E00814EE0 /* SignUpVC.swift */; };
 		1A6176322893203E00814EE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6176302893203E00814EE0 /* Main.storyboard */; };
 		1A6176342893204200814EE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6176332893204200814EE0 /* Assets.xcassets */; };
 		1A6176372893204200814EE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6176352893204200814EE0 /* LaunchScreen.storyboard */; };
+		1AABE39B289843D800E264AD /* AddPlaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AABE39A289843D800E264AD /* AddPlaceVC.swift */; };
 		5A93E2BBB7B6062C1BA3985B /* Pods_Foursquare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659C41A8147E747CA520F3A1 /* Pods_Foursquare.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A3B08122896F4FF00F3ED63 /* PLacesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLacesVC.swift; sourceTree = "<group>"; };
 		1A6176272893203E00814EE0 /* Foursquare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foursquare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A61762A2893203E00814EE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A61762C2893203E00814EE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1A61762E2893203E00814EE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A61762E2893203E00814EE0 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		1A6176312893203E00814EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A6176332893204200814EE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A6176362893204200814EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A6176382893204200814EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AABE39A289843D800E264AD /* AddPlaceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlaceVC.swift; sourceTree = "<group>"; };
 		659C41A8147E747CA520F3A1 /* Pods_Foursquare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foursquare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C520F41DDA1C455E8EED3522 /* Pods-Foursquare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foursquare.debug.xcconfig"; path = "Target Support Files/Pods-Foursquare/Pods-Foursquare.debug.xcconfig"; sourceTree = "<group>"; };
 		D6FE60524B21777BC5BE84F2 /* Pods-Foursquare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foursquare.release.xcconfig"; path = "Target Support Files/Pods-Foursquare/Pods-Foursquare.release.xcconfig"; sourceTree = "<group>"; };
@@ -67,11 +71,13 @@
 			children = (
 				1A61762A2893203E00814EE0 /* AppDelegate.swift */,
 				1A61762C2893203E00814EE0 /* SceneDelegate.swift */,
-				1A61762E2893203E00814EE0 /* ViewController.swift */,
+				1A61762E2893203E00814EE0 /* SignUpVC.swift */,
 				1A6176302893203E00814EE0 /* Main.storyboard */,
 				1A6176332893204200814EE0 /* Assets.xcassets */,
 				1A6176352893204200814EE0 /* LaunchScreen.storyboard */,
 				1A6176382893204200814EE0 /* Info.plist */,
+				1A3B08122896F4FF00F3ED63 /* PLacesVC.swift */,
+				1AABE39A289843D800E264AD /* AddPlaceVC.swift */,
 			);
 			path = Foursquare;
 			sourceTree = "<group>";
@@ -82,7 +88,6 @@
 				C520F41DDA1C455E8EED3522 /* Pods-Foursquare.debug.xcconfig */,
 				D6FE60524B21777BC5BE84F2 /* Pods-Foursquare.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,7 +149,7 @@
 			);
 			mainGroup = 1A61761E2893203E00814EE0;
 			packageReferences = (
-				1A23043D2896986F00A12035 /* XCRemoteSwiftPackageReference "Parse-Swift.git" */,
+				1A23043D2896986F00A12035 /* XCRemoteSwiftPackageReference "Parse-Swift" */,
 			);
 			productRefGroup = 1A6176282893203E00814EE0 /* Products */;
 			projectDirPath = "";
@@ -215,8 +220,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A61762F2893203E00814EE0 /* ViewController.swift in Sources */,
+				1A61762F2893203E00814EE0 /* SignUpVC.swift in Sources */,
 				1A61762B2893203E00814EE0 /* AppDelegate.swift in Sources */,
+				1A3B08132896F4FF00F3ED63 /* PLacesVC.swift in Sources */,
+				1AABE39B289843D800E264AD /* AddPlaceVC.swift in Sources */,
 				1A61762D2893203E00814EE0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,7 +446,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		1A23043D2896986F00A12035 /* XCRemoteSwiftPackageReference "Parse-Swift.git" */ = {
+		1A23043D2896986F00A12035 /* XCRemoteSwiftPackageReference "Parse-Swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/parse-community/Parse-Swift.git";
 			requirement = {
@@ -452,7 +459,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		1A23043E2896987000A12035 /* ParseSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 1A23043D2896986F00A12035 /* XCRemoteSwiftPackageReference "Parse-Swift.git" */;
+			package = 1A23043D2896986F00A12035 /* XCRemoteSwiftPackageReference "Parse-Swift" */;
 			productName = ParseSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
